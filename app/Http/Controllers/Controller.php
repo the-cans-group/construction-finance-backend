@@ -142,8 +142,6 @@ trait Controller
         try {
             $record = $this->model::findOrFail($id);
 
-           
-
             $record->delete();
 
             DB::commit();
