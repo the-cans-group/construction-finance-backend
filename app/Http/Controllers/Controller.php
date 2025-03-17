@@ -142,14 +142,7 @@ trait Controller
         try {
             $record = $this->model::findOrFail($id);
 
-            // Image alanlarını kontrol edip dosyayı silme
-            //            foreach ($this->validationRules as $field => $rules) {
-            //                if (strpos($rules, 'image') !== false || strpos($rules, 'file') !== false) {
-            //                    if ($record->$field) {
-            //                        Storage::delete($record->$field);
-            //                    }
-            //                }
-            //            }
+           
 
             $record->delete();
 
