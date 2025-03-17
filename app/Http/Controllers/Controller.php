@@ -51,7 +51,6 @@ trait Controller
             }
         }
 
-
         DB::beginTransaction();
         try {
 

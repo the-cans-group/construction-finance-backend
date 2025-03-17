@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Order;
 
-
 // example
 class OrderController
 {
@@ -15,8 +14,8 @@ class OrderController
         $this->model = Order::class;
         $this->controllerName = 'admin.order';
 
-        //$this->compact['users'] = User::pluck('name', 'id')->toArray();
-        //$this->compact['books'] = Book::pluck('title', 'id')->toArray();
+        // $this->compact['users'] = User::pluck('name', 'id')->toArray();
+        // $this->compact['books'] = Book::pluck('title', 'id')->toArray();
 
         $this->validationRules = [
             'user_id' => 'required|exists:users,id',
