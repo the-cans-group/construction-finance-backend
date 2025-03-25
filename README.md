@@ -1,6 +1,6 @@
-# Fane Docs for backend
+# backend
 
-[![Lint](https://github.com/the-cans-group/bzt-turan-publishing-house/actions/workflows/lint.yml/badge.svg)](https://github.com/the-cans-group/bzt-turan-publishing-house/actions/workflows/lint.yml) [![Test](https://github.com/the-cans-group/bzt-turan-publishing-house/actions/workflows/test.yml/badge.svg)](https://github.com/the-cans-group/bzt-turan-publishing-house/actions/workflows/test.yml) 
+[![Lint](https://github.com/the-cans-group/construction-finance-backend/actions/workflows/lint.yml/badge.svg)](https://github.com/the-cans-group/construction-finance-backend/actions/workflows/lint.yml) [![Test](https://github.com/the-cans-group/construction-finance-backend/actions/workflows/test.yml/badge.svg)](https://github.com/the-cans-group/construction-finance-backend/actions/workflows/test.yml) 
 
 ## How To Set Up Local Environment
 
