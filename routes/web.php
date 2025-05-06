@@ -1,6 +1,5 @@
 <?php
 
-use App\Facades\CustomRoute;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -16,6 +15,3 @@ Route::get('/contractors', function () {
 Route::get('/reports', function () {
     return view('reports');
 });
-
-
-
